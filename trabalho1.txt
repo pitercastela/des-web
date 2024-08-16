@@ -23,3 +23,5 @@ https://github.com/sqlitebrowser/sqlitebrowser/wiki
 https://www.sqlite.org/docs.html
 
 tópicos: 3, 8, 11, 12, 13, 14
+
+mudança pra verificar o versionamento
