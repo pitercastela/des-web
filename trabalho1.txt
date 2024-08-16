@@ -1,0 +1,25 @@
+python:
+página de referência:
+https://www.python.org/doc/
+https://stackoverflow.com/
+
+tópicos: 4, 8
+
+vscode:
+página de referência:
+https://code.visualstudio.com/docs
+
+tópicos: 4, 5, 6, 7, 9, 10, 11
+
+git:
+página de referência:
+https://git-scm.com/doc
+
+tópicos: 4, 5, 6, 7, 9, 10, 11
+
+sqlite:
+página de referência:
+https://github.com/sqlitebrowser/sqlitebrowser/wiki
+https://www.sqlite.org/docs.html
+
+tópicos: 3, 8, 11, 12, 13, 14
