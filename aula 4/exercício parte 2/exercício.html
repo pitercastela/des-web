@@ -22,6 +22,7 @@
 
       h2 {
         font-size: 1.5em;
+        font-style: italic;
       }
 
       .job-title {
@@ -36,6 +37,12 @@
 
       a:hover {
         text-decoration: none;
+        color: green;
+      }
+
+      fieldset{
+        border: purple 5px solid;
+        background-color: #eeeeee;
       }
     </style>
   </head>
@@ -57,16 +64,18 @@
     </p>
 
     <h2>Contact information</h2>
-    <ul>
-      <li>
-        Email:
-        <a href="mailto:jane@example.com">jane@example.com</a>
-      </li>
-      <li>
-        Web:
-        <a href="https://example.com">https://example.com</a>
-      </li>
-      <li>Tel: 123 45678</li>
-    </ul>
+    <fieldset>
+     <ul>
+       <li>
+         Email:
+         <a href="mailto:jane@example.com">jane@example.com</a>
+       </li>
+       <li>
+         Web:
+         <a href="https://example.com">https://example.com</a>
+       </li>
+       <li>Tel: 123 45678</li>
+     </ul>
+    </fieldset>
   </body>
 </html>

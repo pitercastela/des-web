@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+html {
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+ }
+h1 {
+    font-size: 60px;
+
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#colorido{
+    background-color: rgb(96, 35, 35);
+    min-height: 5rem;
+}
+
+#fixo{
+    width: 30px;
+    height: 2rem;
+    background-color: blue;
+}
+
+#relativo{
+    width: 30vw;
+    height: 2rem;
+    color: white;
+    background-color: black;
+}
+
+span{
+    background-color: rgb(0, 38, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
