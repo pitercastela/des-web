@@ -1,0 +1,61 @@
+#minha-div{
+        width: 80%;
+        margin: 0 auto;
+        height: 50vh;
+        background-color: brown;
+}
+
+#sua_div{       
+    display: none;
+}
+
+#dele_div{
+    display: none;
+}
+
+
+@media screen and (min-width: 780px){
+    #minha-div{
+        background-color: rgb(236, 10, 10);
+        height: 30vh;
+    }
+}
+
+@media screen and (min-width: 992px){
+    #minha-div{
+        background-color: blue;
+        height: 70vh;
+    }
+    #sua_div{
+        display: block;  
+        width: 80%;
+        margin: 0 auto;
+        height: 50vh;
+        background-color: rgb(158, 0, 250); 
+    }
+}
+
+
+@media screen and (min-width: 1400px){
+    #minha-div{
+        background-color: rgb(94, 255, 0);
+        height: 20vh;
+    }
+    #sua_div{  
+        display: block;     
+        width: 80%;
+        margin: 0 auto;
+        height: 50vh;
+        background-color: rgb(158, 0, 250); 
+    }
+    #dele_div{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        height: 50vh;
+        background-color: rgb(229, 255, 0);
+    }
+    
+}
+
+
