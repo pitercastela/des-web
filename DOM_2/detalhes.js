@@ -30,6 +30,27 @@ const montapagina = (dados) => {
 
 }
 
+if (sessionStorage.getItem('logado')){
 
+pega_json(`https://botafogo-atletas.mange.li/2024-1/${id}`).then( (r) => montapagina(r));
 
-pega_json(`https://botafogo-atletas.mange.li/2024-1/${id}`).then( (r) => montapagina(r))
+}else{
+document.body.innerHTML = "<h1>vc é burro n possui senha</h1>"
+
+}
+const achaCookie = ( chave ) =>{
+
+    const lista = document.cookie.split("; ");
+    const par = lista.find(
+        ( e ) => e.startsWith(`${chave}=`)
+    )
+
+    return par.split("=")[1]
+}
+
+console.log('altura: ', achaCookie('altura'));
+
+const dadosSessionStorage = sessionStorage.getItem('dados');
+const obj = JSON.parse(dadosSessionStorage)
+
+console.log('n de jogos:', obj.njogos)
